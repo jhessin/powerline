@@ -1,5 +1,8 @@
 {
 	"segments": {
+    "left": [
+      "function": "powerline.segments.common.env.cwd"
+    ],
 		"right": [
 			{
 				"function": "powerline.segments.common.sys.uptime",
