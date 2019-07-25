@@ -18,12 +18,9 @@
 			"before": "⌆ "
 		},
 		"cwd": {
-      "args": {
-        "dir_shorten_len": 10,
-        "dir_limit_depth": 3,
-        "shorten_home": true,
-        "ellipsis": "⋯"
-      }
+			"args": {
+				"ellipsis": "⋯"
+			}
 		},
 
 		"line_current_symbol": {
@@ -94,33 +91,25 @@
 			}
 		},
 
-    "powerline.segments.shell.cwd": {
-      "args": {
-        "dir_shorten_len": 10,
-        "dir_limit_depth": 3,
-        "shorten_home": true
-      }
-    },
-
 		"powerline.segments.vim.mode": {
 			"args": {
 				"override": {
-					"n":  "N",
-					"no": "N·O",
-					"v":  "V",
-					"V":  "V·L",
-					"^V": "V·B",
-					"s":  "SEL",
-					"S":  "S·L",
-					"^S": "S·B",
-					"i":  "INS",
+					"n":  "NORMAL",
+					"no": "N·OPER",
+					"v":  "VISUAL",
+					"V":  "V·LINE",
+					"^V": "V·BLCK",
+					"s":  "SELECT",
+					"S":  "S·LINE",
+					"^S": "S·BLCK",
+					"i":  "INSERT",
 					"ic": "I·COMP",
 					"ix": "I·C-X ",
-					"R":  "RPL",
+					"R":  "RPLACE",
 					"Rv": "V·RPLC",
 					"Rc": "R·COMP",
 					"Rx": "R·C-X ",
-					"c":  "CMD",
+					"c":  "COMMND",
 					"cv": "VIM·EX",
 					"ce": "NRM·EX",
 					"r":  "PROMPT",
