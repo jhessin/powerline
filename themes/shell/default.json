@@ -15,6 +15,10 @@
 			},
 			{
 				"function": "powerline.segments.shell.cwd",
+        "args": {
+          "dir_shorten_len": 4,
+          "use_path_seperator": false
+        },
 				"priority": 10
 			},
 			{
